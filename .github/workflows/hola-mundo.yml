@@ -1,3 +1,4 @@
+name: mi primer worflow
 on:
   push:
     branches: [main]
