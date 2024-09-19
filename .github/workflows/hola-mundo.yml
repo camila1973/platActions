@@ -1,0 +1,18 @@
+on:
+  push:
+    branches: [main]
+jobs:
+  mi-primer-job:
+    name: mi primer job
+    runs-on: ubuntu-latest
+    steps:
+    - name: Imprimir
+      env:
+        MI_VARIABLE: HOLA MUNDO
+      run: |
+        echo $MI_VARIABLE.
+    
+    
+  
+  
+    
